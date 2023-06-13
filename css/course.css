@@ -1,0 +1,325 @@
+#header{
+    height: 80px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.163) !important;
+    width: 100%;
+
+}
+
+.course-box{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.course-box .course-top-right{
+    text-align: right;
+    padding: 10px 0;
+    margin-top: 10px;
+
+}
+.course-box .course-detail-right .share-course-link{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.course-box .course-detail-right .share-course-link span{
+    color: gray;
+    font-size: 15px;
+}
+
+
+
+.course-box .course-detail-right .share-course-link .links div {
+    margin: 0 4px;
+    font-size: 1.4rem;
+    border: 1px solid red;
+    min-width:35px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s;
+    border: 1px solid rgba(0, 0, 0, 0.307);
+}
+
+.course-detail-right .share-course-link .links div:hover,.alert-box button:hover{
+    border-color: var(--header-blue);
+    box-shadow: 0 0px 5px var(--header-blue);
+}
+.course-box .course-detail-right .share-course-link .links div a i{
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.822);
+    padding: 8px;
+}
+
+
+.course-box .course-top-right .box .course-cost span{
+   
+}
+
+.course-box .course-top-right h1{
+
+}
+
+.course-box .course-top-right h1 .course-link{
+    color: rgb(45, 44, 44);
+    font-weight: 400;
+}
+
+
+.course-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-details .item{
+    padding: 10px 0;
+}
+
+.course-details .course-detail-left {
+    width:80%;
+    display: flex;
+    flex-direction: column !important;
+   
+}
+
+.course-details .course-detail-left .bottom .course-links-title{
+    display: block;
+    padding: 20px 0;
+}
+
+.course-details .course-detail-left .bottom .course-links-title h1  {
+    font-size: 1.3rem;
+}
+
+.course-details .course-detail-left .bottom .course-links-title h1 i{
+    margin-left: 10px;
+} 
+
+.course-details .course-detail-left .bottom{
+    margin: 40px 0;
+    padding: 20px 30px;
+}
+
+.course-details .course-detail-left .bottom .link-box{
+    margin: 10px 0;
+    width: 100%;
+    height: 65px;
+    border: 1px dotted rgba(128, 128, 128, 0.427);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-details .course-detail-left .bottom .link-box span{
+    font-size: 1.1rem;
+    color: rgb(58, 57, 57);
+}
+
+.course-details .course-detail-left .bottom .link-box a{
+
+}
+
+.course-details .course-detail-left .bottom .link-box a i{
+    color: rgb(9, 181, 9);
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+.course-img,.course-info{
+    margin: 40px 0;
+    padding: 0 30px;
+}
+
+.course-details .course-detail-left .top,.bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.course-details .course-detail-left .top .course-img{
+    width: 100%;
+    margin: auto;
+}
+
+.course-details .course-detail-left .top .course-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.course-details .course-detail-left .top .course-info{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.course-details .course-detail-left  .top .course-info .course-text{
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 0.842);
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+.border-gray{
+    border: 1px solid rgba(0, 0, 0, 0.075);
+
+}
+
+.course-state{
+    color: rgb(0, 179, 255) !important;
+}
+
+.course-details .course-detail-right{
+    width: 35%;
+    padding-left: 20px;
+    margin-top: 5%;
+}
+.course-details .course-detail-right .box{
+    margin: 30px 0;
+    padding: 16px 10px;
+
+}
+
+
+
+.course-details .course-detail-right .box h1{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.course-details .course-detail-right .box h1 i{
+    color: rgb(9, 181, 9);
+
+}
+
+.course-details .course-detail-right .box h1 span{
+    color: rgb(9, 181, 9);
+    font-weight: bold;
+}
+
+.box-border{
+    width: 90%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.074);
+    margin: auto;
+}
+
+.course-details .course-detail-right .about-the-course{
+  
+    
+}
+.course-details .course-detail-right .about-the-course li{
+    display: block;
+    margin: 14px 0;
+    font-size: 16px;
+}
+
+.course-details .course-detail-right .about-the-course li {
+    color: gray;
+}
+.course-details .course-detail-right .about-the-course li *{
+    margin: 0 2px;
+}
+
+
+.course-details .course-detail-right .about-the-course .li-value{
+    color: black;
+}
+
+.course-details .course-detail-right  .alert-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    border-color: green !important;
+    animation-name: aletanime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    box-shadow: inset 0 0px 4px orangered, 
+}
+
+@keyframes aletanime{
+    0%{
+        box-shadow: inset 0 0px 4px orangered;
+    }
+
+    20%{
+        box-shadow: inset 0 0px 4px blue; 
+    }
+
+    40%{
+        box-shadow: inset 0 0px 4px rgb(200, 225, 12); 
+    }
+
+    60%{
+        box-shadow: inset 0 0px 4px orangered; 
+    }
+
+    100%{
+        box-shadow: inset 0 0px 4px purple; 
+    }
+}
+
+.course-details .course-detail-right  .alert-box span{
+    color: rgba(0, 0, 0, 0.904);
+    font-size: 15px;
+}
+
+.course-details .course-detail-right  .alert-box button{
+    transition: all 0.5s;
+    border-radius: 50%;
+    border-color: gray;
+    min-width:35px;
+    height: 40px;
+    cursor: pointer;
+}   
+
+.course-details .course-detail-right  .alert-box button i {
+    font-size: 1.2rem;
+    padding: 8px;
+}  
+
+.course-details .course-detail-right .course-tags{
+    display: flex;
+    flex-direction: column;
+}
+
+.course-details .course-detail-right .course-tags span{
+    color: gray;
+    font-weight: 500;
+}
+
+.course-details .course-detail-right .course-tags span i{
+
+}
+
+.course-details .course-detail-right .course-tags .tags{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.course-details .course-detail-right .course-tags .tags a{
+    display: inline-bock;
+    background-color: rgba(128, 128, 128, 0.222);
+    color: rgba(0, 0, 0, 0.702);
+    min-width: 30px;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-weight: 100;
+    font-size: 15px;
+    margin: 3px 8px;
+}
+
