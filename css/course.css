@@ -242,36 +242,43 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 10px;
     position: relative;
-    border-color: green !important;
-    animation-name: aletanime;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    box-shadow: inset 0 0px 4px orangered, 
+    border: none;
+    position: relative;
+    background-color: white;    
 }
 
-@keyframes aletanime{
-    0%{
-        box-shadow: inset 0 0px 4px orangered;
-    }
+.course-details .course-detail-right  .alert-box:after{
+    content: "";
+    position: absolute;
+    inset: -4px;
+    border-radius: 6px;
+    z-index: -1;
+    animation-name: alertboxanime;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
 
-    20%{
-        box-shadow: inset 0 0px 4px blue; 
+@keyframes alertboxanime{
+    0%{
+        background:linear-gradient(to bottom,rgb(234, 154, 168) 30%,rgb(226, 22, 226) 50%,rgb(42, 156, 243) 70%);
     }
 
     40%{
-        box-shadow: inset 0 0px 4px rgb(200, 225, 12); 
+        background:linear-gradient(to bottom,rgb(226, 22, 226) 50% ,rgb(42, 156, 243) 70%,rgb(234, 154, 168) 80%);
     }
 
-    60%{
-        box-shadow: inset 0 0px 4px orangered; 
+    70%{
+        background:linear-gradient(to bottom,rgb(234, 154, 168) 30%,rgb(226, 22, 226) 50%,rgb(42, 156, 243) 70%);
     }
 
     100%{
-        box-shadow: inset 0 0px 4px purple; 
+        background:linear-gradient(to bottom,rgb(226, 22, 226) 50% ,rgb(42, 156, 243) 70%,rgb(234, 154, 168) 80%);
     }
-}
+
+    }
+
 
 .course-details .course-detail-right  .alert-box span{
     color: rgba(0, 0, 0, 0.904);
