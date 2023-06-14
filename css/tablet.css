@@ -132,3 +132,16 @@
 	}
 
 }
+
+
+@media only screen and (max-width:1283px) {
+	.more-course-teacher{
+		width: 100%;
+		height: 90%;
+	}
+	.more-course-box{
+		width: 100%;
+		height: 100%;
+	}
+    
+}

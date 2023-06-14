@@ -76,7 +76,7 @@
     justify-content: space-between;
 }
 
-.course-details .item{
+.course-details .item,.more-course-teacher{
     padding: 10px 0;
 }
 
@@ -328,5 +328,76 @@
     font-weight: 100;
     font-size: 15px;
     margin: 3px 8px;
+}
+
+
+
+.more-course-teacher{
+    display: flex;
+    flex-direction: column;
+    width: 69%;
+    height: 400px;
+    align-self: flex-end;
+
+}
+
+.more-course-teacher .title *{
+    display: inline-block;
+}
+.more-course-teacher .title {
+    padding: 10px;
+}
+
+.more-course-teacher .title h1{
+    font-size: 1.3rem;
+    color: rgb(49, 48, 48);
+}
+.more-course-teacher .title i{
+    margin-left:10px ;
+    font-size: 1.3rem;
+
+}
+
+.more-course-box img{
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.more-course-box{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    height: 250px;
+    border-radius:5px;
+}
+
+.more-course-box span{
+    padding: 0 12px !important;
+    margin:5px 0;
+    font-size: 15px;
+    color: gray;
+}
+
+.more-course-box span:nth-child(2){
+    color: rgb(17, 17, 17) !important;
+}
+
+
+.line-gray{
+    width: 90%;
+    height: 1px;
+    background-color: rgba(189, 187, 187, 0.867);
+    margin:5px auto;
+}
+
+.more-course-box .course-time{
+    color: var(--header-blue);
+    padding: 0 12px ;
+}
+
+.more-course-box .course-time i{
+    margin-left: 5px;
 }
 
