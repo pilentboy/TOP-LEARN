@@ -74,3 +74,11 @@
 	}
 
 }
+
+
+/* article */
+@media only screen and (max-width:680px) {
+	.article-content-box .top .article-main-img{
+		width: 100%;
+	}
+}

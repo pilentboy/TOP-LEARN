@@ -145,3 +145,25 @@
 	}
     
 }
+
+/* article*/
+
+@media only screen and (max-width:1000px){
+	.article-content-box .top{
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.article-info{
+		display: flex;
+	}
+
+	.article-info .item{
+		margin: 0 15px !important;
+	}
+
+	.article-info .item:nth-child(2){
+		display: none;
+	}
+}
+
