@@ -520,3 +520,34 @@ a,button{
     line-height: 27px;
 }
 
+.share-article{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(128, 128, 128, 0.294);
+}
+
+.share-article h1{
+    color: rgb(100, 97, 97);
+    font-size: 1rem;
+}
+
+.share-article .share-article-links a{
+    display: inline-block;
+    margin: 4px 10px;
+    border: 1px solid black;
+    padding: 3px 6px;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.share-article .share-article-links a:hover{
+    border-color: var(--header-blue);
+}
+.share-article .share-article-links a i{
+    color: rgb(57, 57, 57);
+    font-size: 1.2rem;
+}
