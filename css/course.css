@@ -1,6 +1,9 @@
 #header{
     height: 80px;
 }
+a,button{
+    cursor: pointer;
+}
 
 .border-bottom{
     border-bottom: 1px solid rgba(128, 128, 128, 0.163) !important;
@@ -186,11 +189,47 @@
     padding-left: 20px;
     margin-top: 5%;
 }
+
 .course-details .course-detail-right .box{
     margin: 30px 0;
     padding: 16px 10px;
-
 }
+
+
+.course-detail-right .ask-qs-link{
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px ;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.ask-qs-link{
+    color: #fff ;
+    
+}
+
+.ask-course{
+    background-color: #eb1460;
+    color: white;
+}
+
+.favorite-btn{
+    background-color: lightseagreen;
+}
+
+#addToFavorite i {
+    margin: 0 5px;
+}
+
+#addToFavorite,.ask-course a{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight:500;
+    font-size: 1rem;
+}
+
 
 
 
