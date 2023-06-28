@@ -112,8 +112,9 @@ a,button{
 .course-details .course-detail-left .bottom .link-box{
     margin: 10px 0;
     width: 100%;
+	border-radius:5px;
     height: 65px;
-    border: 1px dotted rgba(128, 128, 128, 0.427);
+    border: 1px dashed rgba(128, 128, 128, 0.427);
     padding: 20px;
     display: flex;
     align-items: center;
