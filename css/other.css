@@ -11,6 +11,7 @@ a,button{
 
 #dis-search-box{
     padding: 2px ;
+    margin-right: 9px !important;
     border: none;
     background-color: transparent;
 }
@@ -22,6 +23,7 @@ a,button{
     background-color: rgba(0, 0, 0, 0.672);
     top: 0;
     z-index:1000 ;
+    
     display: none;
     align-items: center;
     justify-content: center;
@@ -31,6 +33,17 @@ a,button{
 
 .search-box-bg  .search-box{
     width: 60%;
+}
+
+@media only screen and (max-width:670px) {
+    .search-box-bg  .search-box{
+        width: 80%;
+        height: 43px;
+        overflow: hidden;
+    }
+    .search-box .search-input{
+        padding: 5px;
+    }
 }
 
 .search-box-bg  .search-box .search-btn{
