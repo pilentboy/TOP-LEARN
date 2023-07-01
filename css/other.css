@@ -15,6 +15,32 @@ a,button{
     background-color: transparent;
 }
 
+.search-box-bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.672);
+    top: 0;
+    z-index:1000 ;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.search-box-bg  .search-box{
+    width: 60%;
+}
+
+.search-box-bg  .search-box .search-btn{
+    color: black;
+}
+
+.search-box-bg  .search-box .search-btn:hover > i {
+    color: rgb(40, 170, 11);
+}
+
 #dis-search-box i{
   font-size: 1.1rem;
   color: #fff;

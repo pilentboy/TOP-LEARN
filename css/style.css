@@ -63,6 +63,7 @@ body{
     font-size: 1.5rem;
     padding: 0 5px;
     z-index:3;
+  
 }
 
 #header #nav #left *{
@@ -185,7 +186,8 @@ body{
     margin: 10px 0;
     font-size: 1.7rem;
 }
-#header #header-center #search-box{
+
+.search-box{
     background-color: white;
     width: 90%;
     height: 50px;
@@ -198,36 +200,36 @@ body{
     box-shadow: 0 0 0px 10px rgba(128, 128, 128, 0.372);
 }
 
-#header #header-center #search-box #search-input{
+.search-box .search-input{
     width: 90%;
     padding: 10px 2px;
     font-size: 1.2rem;
     border-radius: 50px;
 
 }
-#header #header-center #search-box #search-input::placeholder{
+.search-box .search-input::placeholder{
     font-size: 1rem;
 }
 
-#search-input,#search-btn{
+.search-input,.search-btn{
     border: none;
     outline: none;
 }
 
-#header #header-center #search-box #search-btn{
+.search-box .search-btn{
     background-color: white;
     color: var(--header-blue);
     font-size: 1.2rem;
     cursor: pointer;
     transition: all 0.3s;
-
 }
-#header #header-center #search-box #search-btn:hover > i{
+
+.search-box .search-btn:hover > i{
         color: black;
         transition: all 0.3s;
 }
 
-#header #header-center #search-box #search-btn i{
+.search-box .search-btn i{
     transition: all 0.3s;
 
 }
