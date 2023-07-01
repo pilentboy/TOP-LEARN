@@ -5,6 +5,21 @@ a,button{
     cursor: pointer;
 }
 
+#nav .line{
+    display: inline-block;
+}
+
+#dis-search-box{
+    padding: 2px ;
+    border: none;
+    background-color: transparent;
+}
+
+#dis-search-box i{
+  font-size: 1.1rem;
+  color: #fff;
+}
+
 
 .border-bottom{
     border-bottom: 1px solid rgba(128, 128, 128, 0.163) !important;

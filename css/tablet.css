@@ -89,14 +89,10 @@
 	#header #nav #right{
 		width: 20%;
 	}
-	#nav .line{
-		color: white;
-		font-size: 1.5rem;
-		padding: 0 5px;
-		z-index:3;
-	}
+	
+	
 
-	#nav .line,#display-nav-btn{
+	#nav #display-nav-btn{
 		display: flex;
 	}
 

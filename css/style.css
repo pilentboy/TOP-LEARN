@@ -53,14 +53,23 @@ body{
     color: #fff;
     font-size: 0.9rem;
 }
+
 #header #nav #left{
 
 }
+
+#nav .line{
+    color: white;
+    font-size: 1.5rem;
+    padding: 0 5px;
+    z-index:3;
+}
+
 #header #nav #left *{
     margin: 0 1px;
 }
 
-#nav .line,#display-nav-btn{
+#nav #display-nav-btn,.line{
     display: none;
     z-index: 101;
 }
@@ -72,11 +81,11 @@ body{
     color: red;
 }
 
-#header #nav #left a{
+#header #nav #left a,i{
     transition: all 0.5s;
 }
 
-#header #nav #left a:hover,#right #display-nav-btn:hover{
+#header #nav #left #dis-search-box i:hover ,a:hover,#right #display-nav-btn:hover{
     color: #00aeff;
     transition: all 0.5s;
 }
@@ -85,7 +94,7 @@ body{
 #header #nav #left span{
 
 }
-#header #nav #left i{
+#header #nav #left .fa-user{
     font-size: 1rem;
     margin-left: 5px;
 }
