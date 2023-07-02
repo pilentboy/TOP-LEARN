@@ -22,7 +22,6 @@ body{
     --course-box-green:rgb(50, 185, 23);
     --footer-bg:#153248;
     --social-media-bg:rgb(33, 76, 114);
-    
 }
 
 /*-----------header*/
@@ -86,8 +85,8 @@ body{
     transition: all 0.5s;
 }
 
-#header #nav #left #dis-search-box i:hover, a:hover, #right #display-nav-btn:hover{
-    color: #00aeff !important;
+#header #nav #left #dis-search-box i:hover, #left  a:hover, #right #display-nav-btn:hover{
+    color: #00aeff;
     transition: all 0.5s;
 }
 
