@@ -26,9 +26,11 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
 
- 
+    <!-- Jquery -->
+    <script src="./script/jquery-3.7.0.min.js"></script>
 
     <title>دوره آموزشی</title>
+
   </head>
   <body>
     <!-- HEADER AND NAV -->
@@ -48,10 +50,16 @@
             <li><a href="./index.html" class="nav-item">لینک های مفید</a></li>
             <li><a href="./index.html" class="nav-item">تماس با ما</a></li>
           </ul>
-          <img src="./asset/logo.svg" alt="logo" />
+          
+          <a href="./index.html"><img src="./asset/logo.svg" alt="logo" /></a>
+
         </div>
-        <span class="line">|</span>
+
         <div id="left">
+          <button id="dis-search-box">
+            <i class="bi bi-search"></i>
+          </button>
+          <span class="line">|</span>
           <i class="fa fa-user nav-item"></i>
           <a href="#" class="nav-item">ورود</a>
           <span class="nav-item">/</span>
@@ -59,6 +67,18 @@
         </div>
       </nav>
     </header>
+
+
+    <!-- SEARCH BOX -->
+     <div class="search-box-bg">
+      <section id="search-box-section" class="search-box">
+        <input type="text" class="search-input" placeholder="جستوجو کنید...">
+        <button type="submit" class="search-btn">
+            <i class="fa fa-search"></i>
+        </button>
+      </section>
+    </div>
+  
 
     <!-- MAIN -->
 
@@ -348,6 +368,9 @@
       </section>
     </footer>
 
+
+  <!-- scripts -->
+  <script src="./script/app.js"></script>
 
   </body>
 </html>

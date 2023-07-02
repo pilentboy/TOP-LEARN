@@ -86,10 +86,11 @@ body{
     transition: all 0.5s;
 }
 
-#header #nav #left #dis-search-box i:hover ,a:hover,#right #display-nav-btn:hover{
-    color: #00aeff;
+#header #nav #left #dis-search-box i:hover, a:hover, #right #display-nav-btn:hover{
+    color: #00aeff !important;
     transition: all 0.5s;
 }
+
 
 
 #header #nav #left span{
