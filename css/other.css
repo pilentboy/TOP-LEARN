@@ -34,8 +34,21 @@ a,button{
 
 
 .search-box-bg  .search-box{
-    width: 60%;
+	animation-name:searchboxanime;
+	animation-duration:0.5s;
+    animation-fill-mode: both;
 }
+
+@keyframes searchboxanime{
+    0%{
+        width:30%
+    }
+
+    100%{
+        width: 60%;
+    }
+}
+
 
 @media only screen and (max-width:670px) {
     .search-box-bg  .search-box{
@@ -425,8 +438,12 @@ a,button{
     font-weight: 100;
     font-size: 15px;
     margin: 3px 8px;
+	transition:all 0.5;
 }
-
+.course-details .course-detail-right .course-tags .tags a:hover{
+	color:#eb1460;
+	
+}
 
 
 .more-course-teacher{
